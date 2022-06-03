@@ -1,0 +1,8 @@
+name: drupal-nine
+recipe: drupal9
+config:
+  webroot: .
+  database: mysql:8.0
+  via: nginx
+  drush: true
+  xdebug: true
