@@ -6,3 +6,7 @@ config:
   via: nginx
   drush: true
   xdebug: true
+services:
+  appserver:
+    build:
+      - composer install
