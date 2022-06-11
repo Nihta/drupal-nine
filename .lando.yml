@@ -1,12 +1,24 @@
-name: drupal-nine
+name: multi-drupal-nine
 recipe: drupal9
 config:
   webroot: .
   database: mysql:8.0
-  via: nginx
+  # via: nginx
   drush: true
   xdebug: true
+
 services:
   appserver:
     build:
       - composer install
+  # The database service used for the `site1` site.
+  site1:
+    type:  mysql:8.0
+    portforward: true
+    creds:
+      user: drupal
+      password: drupal
+      database: site1
+proxy:
+  appserver:
+    - site1.lndo.site
