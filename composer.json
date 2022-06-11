@@ -21,6 +21,7 @@
         "drupal/core-recommended": "^9.3",
         "drupal/core-vendor-hardening": "^9.3",
         "drupal/examples": "^3.0",
+        "drupal/features": "^3.12",
         "drupal/serial": "^1.0@alpha",
         "drush/drush": "^11.0"
     },
