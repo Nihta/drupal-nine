@@ -46,3 +46,5 @@ sites/simpletest
 
 /backups/
 *.sql.gz
+
+.env

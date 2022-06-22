@@ -56,5 +56,8 @@
  * @see https://www.drupal.org/documentation/install/multi-site
  */
 
+// Load env
+use Symfony\Component\Dotenv\Dotenv;
+(new Dotenv())->usePutenv()->bootEnv(DRUPAL_ROOT . '/.env', 'dev', ['test'], true);
 
-$sites['site1.lndo.site'] = "site1";
+$sites['site1.lndo.site'] = $_ENV['NIHTA_SITE_1_DIR'];
