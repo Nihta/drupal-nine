@@ -22,6 +22,7 @@
         "drupal/core-recommended": "^9.3",
         "drupal/core-vendor-hardening": "^9.3",
         "drupal/dotenv": "^1.0",
+        "drupal/entity_print": "^2.5",
         "drupal/examples": "^3.0",
         "drupal/features": "^3.12",
         "drupal/serial": "^1.0@alpha",
