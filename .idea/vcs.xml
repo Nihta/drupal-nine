@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/customs/enable_twig_debugging" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/customs/hello_world" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/sites/quan-ly-minh-chung" vcs="Git" />
   </component>
 </project>
