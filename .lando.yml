@@ -11,6 +11,8 @@ services:
   appserver:
     build:
       - composer install
+    build_as_root:
+      - apt install ./deb/wkhtmltox_0.12.6.1-2.bullseye_amd64.deb
   # The database service used for the `site1` site.
   site1:
     type:  mysql:8.0

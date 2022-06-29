@@ -1,17 +1,21 @@
-# Hướng dẫn
+# Document
 
 ## Lando
+
+Start with environment.
 
 ```zsh
 lando start
 ```
 
+Import database.
+
 ```zsh
-# Import db
 lando drush @site1.local sqlc < ./path_to_db.sql
 ```
 
+Clear cache.
+
 ```zsh
-# Clear cache
 lando drush @site1.local cr
 ```
