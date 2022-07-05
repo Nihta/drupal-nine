@@ -27,6 +27,7 @@
         "drupal/examples": "^3.0",
         "drupal/features": "^3.12",
         "drupal/serial": "^1.0@alpha",
+        "drupal/views_bulk_operations": "^4.1",
         "drush/drush": "^11.0",
         "mikehaertl/phpwkhtmltopdf": "^2.5"
     },
