@@ -27,6 +27,7 @@
         "drupal/entity_reference_revisions": "^1.9",
         "drupal/examples": "^3.0",
         "drupal/features": "^3.12",
+        "drupal/field_group": "^3.2",
         "drupal/paragraphs": "^1.14",
         "drupal/serial": "^1.0@alpha",
         "drupal/views_bulk_operations": "^4.1",
