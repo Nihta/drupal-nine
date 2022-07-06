@@ -45,6 +45,6 @@ sites/simpletest
 # simpletest
 
 /backups/
+/tmp/
 *.sql.gz
-
 .env
