@@ -100,6 +100,7 @@
       <path value="$PROJECT_DIR$/vendor/mikehaertl/php-tmpfile" />
       <path value="$PROJECT_DIR$/vendor/mikehaertl/phpwkhtmltopdf" />
       <path value="$PROJECT_DIR$/vendor/mikehaertl/php-shellcommand" />
+      <path value="$PROJECT_DIR$/vendor/commerceguys/addressing" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
