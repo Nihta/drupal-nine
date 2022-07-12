@@ -15,7 +15,7 @@ services:
       - apt install ./deb/wkhtmltox_0.12.6.1-2.bullseye_amd64.deb
   # The database service used for the `site1` site.
   site1:
-    type:  mysql:8.0
+    type: mysql:8.0
     portforward: true
     creds:
       user: drupal
@@ -24,3 +24,11 @@ services:
 proxy:
   appserver:
     - site1.lndo.site
+
+tooling:
+  # TODO: PhpStorm not working yet.
+  phpcs:
+    service: appserver
+    cmd: "/app/vendor/bin/phpcs --standard=Drupal,DrupalPractice"
+    options:
+    description: Run phpcs for given folder or file.

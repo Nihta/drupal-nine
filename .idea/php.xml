@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/vendor/bin/phpc" tool_path="$PROJECT_DIR$/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
@@ -101,6 +106,12 @@
       <path value="$PROJECT_DIR$/vendor/mikehaertl/phpwkhtmltopdf" />
       <path value="$PROJECT_DIR$/vendor/mikehaertl/php-shellcommand" />
       <path value="$PROJECT_DIR$/vendor/commerceguys/addressing" />
+      <path value="$PROJECT_DIR$/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/slevomat/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/sirbrillig/phpcs-variable-analysis" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/drupal/coder" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
