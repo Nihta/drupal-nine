@@ -48,3 +48,4 @@ sites/simpletest
 /tmp/
 *.sql.gz
 .env
+.idea/vcs.xml
